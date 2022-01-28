@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: 100%; */
+}
+
+
+.image{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.image img{
+    height: 40vh;
+    width: 30vw;
+    border-radius: 2rem;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
