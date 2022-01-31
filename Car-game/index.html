@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        .hidden{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="score"></div>
+    <div class="game">
+        <div class="startScreen"></div>
+        <div class="gameArea hidden"></div>
+    </div>
+
+
+
+    <script>
+        //Selectors
+        const score = document.querySelector(".score")
+        const gameArea = document.querySelector(".gameArea")
+        const startScreen = document.querySelector(".startScreen")
+
+        //Event listner
+        startScreen.addEventListener("click",start)
+
+       //functions
+        function start(){
+            console.log("Hey game started");
+        }
+        
+
+    </script>
+</body>
+</html>
